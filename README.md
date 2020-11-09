@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/levon-avackimyanc/Lab-03-SharedPtr.svg?branch=wp%2Flab)](https://travis-ci.org/levon-avackimyanc/Lab-03-SharedPtr))
+[![Build Status](https://travis-ci.org/levon-avackimyanc/Lab-03-SharedPtr.svg?branch=wp%2Flab)](https://travis-ci.org/levon-avackimyanc/Lab-03-SharedPtr)
 
 # Лабораторная работа №3
 
