@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/levon-avackimyanc/Lab-03-SharedPtr.svg?branch=master)](https://travis-ci.org/levon-avackimyanc/Lab-03-SharedPtr)
+
 # Лабораторная работа №3
 
 ### Задание
