@@ -7,6 +7,7 @@
 #include <atomic>
 #include <iostream>
 #include <utility>
+#include <type_traits>
 
 template <typename T>
 class SharedPtr {

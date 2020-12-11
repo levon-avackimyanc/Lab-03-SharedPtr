@@ -105,3 +105,13 @@ TEST(Shared_Ptr, equal_ptr) {
   ASSERT_EQ(*q, 50);
   ASSERT_EQ(q.use_count(), 1);
 }
+TEST(Shared_Ptr, IsMoveConstructable){
+  EXPECT_TRUE(std::is_move_constructible<SharedPtr<int>>());
+  EXPECT_TRUE(std::is_move_constructible<SharedPtr<std::string>>());
+  EXPECT_TRUE(std::is_move_constructible<SharedPtr<double>>());
+}
+TEST(Shared_Ptr, IsMoveAssygnable){
+  EXPECT_TRUE(std::is_move_assignable<SharedPtr<int>>());
+  EXPECT_TRUE(std::is_move_assignable<SharedPtr<std::string>>());
+  EXPECT_TRUE(std::is_move_assignable<SharedPtr<double>>());
+}
